@@ -14,12 +14,13 @@
 			<Item Name="Typedef" Type="Folder">
 				<Item Name="LvIRKit_rsc_IRData_typedef.ctl" Type="VI" URL="../SubVI/LvIRKit_rsc_IRData_typedef.ctl"/>
 			</Item>
-			<Item Name="LvIRKit_InpuButtonName_Panel.vi" Type="VI" URL="../SubVI/LvIRKit_InpuButtonName_Panel.vi"/>
+			<Item Name="LvIRKit_InputButtonName_Panel.vi" Type="VI" URL="../SubVI/LvIRKit_InputButtonName_Panel.vi"/>
 			<Item Name="LvIRKit_ManageIRData.vi" Type="VI" URL="../SubVI/LvIRKit_ManageIRData.vi"/>
 			<Item Name="LvIRKit_RegistButton_Panel.vi" Type="VI" URL="../SubVI/LvIRKit_RegistButton_Panel.vi"/>
 			<Item Name="LvIRKit_SUB_Messages_GET.vi" Type="VI" URL="../SubVI/LvIRKit_SUB_Messages_GET.vi"/>
 			<Item Name="LvIRKit_SUB_Messages_POST.vi" Type="VI" URL="../SubVI/LvIRKit_SUB_Messages_POST.vi"/>
 		</Item>
+		<Item Name="LvIRKit_InputIRKitNameAndIP_Panel.vi" Type="VI" URL="../SubVI/LvIRKit_InputIRKitNameAndIP_Panel.vi"/>
 		<Item Name="LvIRKit_Main.vi" Type="VI" URL="../LvIRKit_Main.vi"/>
 		<Item Name="依存項目" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -39,6 +40,7 @@
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Split String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Split String.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
