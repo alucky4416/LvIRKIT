@@ -12,15 +12,18 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVI" Type="Folder">
 			<Item Name="Typedef" Type="Folder">
+				<Item Name="LvIRKit_rsc_DeviceData_typedef.ctl" Type="VI" URL="../SubVI/LvIRKit_rsc_DeviceData_typedef.ctl"/>
 				<Item Name="LvIRKit_rsc_IRData_typedef.ctl" Type="VI" URL="../SubVI/LvIRKit_rsc_IRData_typedef.ctl"/>
 			</Item>
 			<Item Name="LvIRKit_InputButtonName_Panel.vi" Type="VI" URL="../SubVI/LvIRKit_InputButtonName_Panel.vi"/>
+			<Item Name="LvIRKit_InputIRKitNameAndIP_Panel.vi" Type="VI" URL="../SubVI/LvIRKit_InputIRKitNameAndIP_Panel.vi"/>
+			<Item Name="LvIRKit_ManageDeviceData.vi" Type="VI" URL="../SubVI/LvIRKit_ManageDeviceData.vi"/>
 			<Item Name="LvIRKit_ManageIRData.vi" Type="VI" URL="../SubVI/LvIRKit_ManageIRData.vi"/>
 			<Item Name="LvIRKit_RegistButton_Panel.vi" Type="VI" URL="../SubVI/LvIRKit_RegistButton_Panel.vi"/>
+			<Item Name="LvIRKit_SUB_GetIRKitIPbyName.vi" Type="VI" URL="../SubVI/LvIRKit_SUB_GetIRKitIPbyName.vi"/>
 			<Item Name="LvIRKit_SUB_Messages_GET.vi" Type="VI" URL="../SubVI/LvIRKit_SUB_Messages_GET.vi"/>
 			<Item Name="LvIRKit_SUB_Messages_POST.vi" Type="VI" URL="../SubVI/LvIRKit_SUB_Messages_POST.vi"/>
 		</Item>
-		<Item Name="LvIRKit_InputIRKitNameAndIP_Panel.vi" Type="VI" URL="../SubVI/LvIRKit_InputIRKitNameAndIP_Panel.vi"/>
 		<Item Name="LvIRKit_Main.vi" Type="VI" URL="../LvIRKit_Main.vi"/>
 		<Item Name="依存項目" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -40,9 +43,16 @@
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Split String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Split String.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
